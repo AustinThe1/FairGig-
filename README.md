@@ -1,46 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <style>
-    body {
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        background-color: #f8f9fa;
-        color: #333;
-        line-height: 1.6;
-        max-width: 900px;
-        margin: auto;
-        padding: 20px;
-    }
-    h1, h2, h3 {
-        color: #0d6efd;
-    }
-    .icon {
-        margin-right: 8px;
-    }
-    .section {
-        background: white;
-        padding: 15px;
-        border-radius: 8px;
-        margin-bottom: 20px;
-        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-    }
-    code {
-        background: #e9ecef;
-        padding: 2px 6px;
-        border-radius: 4px;
-        font-size: 0.95em;
-    }
-    ul {
-        padding-left: 20px;
-    }
-    .badge {
-        display: inline-block;
-        background: #0d6efd;
-        color: white;
-        padding: 3px 8px;
-        border-radius: 5px;
-        font-size: 0.85em;
-    }
-</style>
 <!-- Icons from Bootstrap -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
 </head>
