@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FairGig+ Resource Hub</title>
+<!-- Styles(cannt im limited in change) -->
+<script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 font-sans">
+
+<!-- Header -->
+<header class="bg-teal-600 text-white p-4">
+  <div class="max-w-6xl mx-auto">
+    <h1 class="text-2xl font-bold">FairGig+ Resource Hub</h1>
+    <p class="text-sm">Guides, templates, and tools for gig workers</p>
+  </div>
+</header>
+
+<!-- Search and Filter -->
+<section class="max-w-6xl mx-auto p-4 bg-white shadow mt-4 rounded">
+  <div class="flex flex-col md:flex-row gap-3">
+    <input id="searchInput" type="text" placeholder="Search resources..."
+      class="border p-2 rounded flex-1">
+    <select id="categoryFilter" class="border p-2 rounded">
+      <option value="All">All Categories</option>
+      <option value="Guides">Guides</option>
+      <option value="Templates">Templates</option>
+      <option value="Legal">Legal</option>
+      <option value="Invoices">Invoices</option>
+    </select>
+    <button onclick="renderResources()" class="bg-teal-600 text-white px-4 py-2 rounded">Search</button>
+  </div>
+</section>
+
+<!-- Resource List -->
+<section class="max-w-6xl mx-auto p-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4" id="resourceList">
+  <!-- Resource cards will be inserted here -->
+</section>
+
+<!-- java Scripting  -->
+<script src="resourehub.js"></script>
+</body>
+</html>
